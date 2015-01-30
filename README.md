@@ -1,6 +1,6 @@
 # Firudo
 
-Provides simple logging into log files and filtering security parameters from logs for Sinatra based applications.
+Provides simple logging into log files (/log/development.log || /log/production.log) and filtering security parameters from logs for Sinatra based applications.
 
 ## Installation
 
@@ -20,10 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-    `register Sinatra::Firudo`
-    `Sinatra::Firudo.filter_attributes alf, :password`
+    register Sinatra::Firudo
+    Sinatra::Firudo.filter_attributes alf, :password
 
-  (attribute alf is required to pass for now)
+  (attribute `alf` is required to pass for now)
 
 ## Contributing
 
