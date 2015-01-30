@@ -1,6 +1,6 @@
 # Firudo
 
-TODO: Write a gem description
+Provides simple logging into log files and filtering security parameters from logs for Sinatra based applications.
 
 ## Installation
 
@@ -20,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    `register Sinatra::Firudo`
+    `Sinatra::Firudo.filter_attributes alf, :password`
+
+  (attribute alf is required to pass for now)
 
 ## Contributing
 

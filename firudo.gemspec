@@ -9,8 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ostap Ivanyshyn"]
   spec.email         = ["otan256@gmail.com"]
   spec.summary       = %q{Provides writing logs into files and filtering secure data.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ostaptan/firudo"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
