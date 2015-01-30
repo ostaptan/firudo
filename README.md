@@ -1,5 +1,7 @@
 # Firudo
 
+[![Gem Version](https://badge.fury.io/rb/firudo.svg)](http://badge.fury.io/rb/firudo)
+
 Provides simple logging into log files (/log/development.log || /log/production.log) and filtering security parameters from logs for Sinatra based applications.
 
 ## Installation
